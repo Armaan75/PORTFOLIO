@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo.png" type="image/x-icon" />
+    <script defer src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Armaan Rahnama | Aspiring Developer</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo-container">
+            <img src="Logo.png" id="logo">
+        </div>
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+<!-- Home Section -->
+<section id="home" class="section home">
+    <h1 class="name-container">Armaan Rahnama</h1>
+    <h2 class="subtitle-container">An Aspiring Developer</h2>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <h3>📍London, United Kingdom</h3>
+        <p>
+            Hello I'm Armaan, an aspiring software engineer with a unique blend of technical and business expertise. I hold an MSc in Computing and a BSc in Business Management and Marketing from the University of Roehampton. My journey into software development is fueled by a passion for problem-solving and creating intuitive, user-centered solutions.
+        </p>
+        
+        <div>
+            With my background in business management, I bring a strategic mindset to every project, understanding the importance of both the technical and business aspects of development. Fluent in English and Farsi, I can communicate and collaborate effectively in diverse environments.
+        </div>
+        
+        <div>
+            I'm driven by a desire to create impactful solutions. Explore some of my projects <a href ="#projects">here</a>. I'm looking to work as a software engineer and contribute to innovative projects.
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <a href="https://armaan75.github.io/Rock--Paper--Scissors-Game/" class="project-link" target="_blank">
+                <img src="images/RPS game.png" alt="Rock Paper Scissors Game">
+                <h3>Rock, Paper, Scissor Game</h3>
+                <p>
+                    A simple yet engaging Rock-Paper-Scissors game built with HTML, CSS, and JavaScript. Players interact by 
+                    clicking buttons to choose their move, while the computer makes a random selection. The game determines 
+                    the winner and displays the results with visual feedback and keeps track of the score.
+                </p>
+            </a>
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/Armaan75/PawfectPetSupplies_DB" class="project-link" target="_blank">
+                <img src="images/petshop.png" alt="Pawfect Pet Supplies Database">
+                <h3>Pawfect Pet Supplies Database</h3>
+                <p>
+                    This project outlines the SQL schema for the 'PawfectPetSupplies' database, designed to manage customer 
+                    information, product inventory, sales, and orders for a pet store. The README.md file provides detailed 
+                    explanations of the database structure, including table definitions, relationships, and example queries.
+                </p>
+            </a>
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/Armaan75/Weather-App" class="project-link" target="_blank">
+                <img src="images/weather.png" alt="Weather App">
+                <h3>Weather App</h3>
+                <p>
+                    A user-friendly weather app, developed in Python, empowers you to explore weather conditions across the 
+                    globe. Simply enter a city name, and the app retrieves and displays the current temperature, weather 
+                    conditions, wind speed, and humidity. The simple interface makes it easy to stay updated on the weather.
+                </p>
+            </a>
+            </div>
+        </div>
+    </section>    
+
+<!-- Skills Section -->
+<section id="skills" class="section skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card">
+            <h3 class="html">HTML</h3>
+            <img src="images/html-logo.png" alt="html-logo">
+        </div>
+        <div class="skill-card">
+            <h3 class="css">CSS</h3>
+            <img src="images/css-logo.png" alt="css-logo">
+        </div>
+        <div class="skill-card">
+            <h3 class="java">JavaScript</h3>
+            <img src="images/javascript-logo.png" alt="java-logo">
+        </div>
+        <div class="skill-card">
+            <h3 class="sql">SQL</h3>
+            <img src="images/sql-logo.png" alt="sql-logo">
+        </div>
+        <div class="skill-card">
+            <h3 class="python">Python</h3>
+            <img src="images/python-logo.png" alt="python-logo">
+        </div>
+        <div class="skill-card">
+            <h3 class="dj">Django</h3>
+            <img src="images/dj-logo.png" alt="django-logo">
+        </div>
+        <div class="skill-card">
+            <h3 class="docker">Docker</h3>
+            <img src="images/docker-logo.png" alt="docker-logo">
+        </div>
+        <div class="skill-card">
+            <h3 class="git">Git</h3>
+            <img src="images/git-logo.png" alt="git-logo">
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <p>
+        Email: <a href="mailto:armaanrahnama@gmail.com">armaanrahnama@gmail.com</a>
+    </p>
+    <div class="contact-container">
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="from_name" required placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="from_email" required placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required placeholder="Enter the subject">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="send-btn">Send Message</button>
+        </form>
+        <br></div>
+        <br></div>
+        <div class="social-links">  <a href="https://github.com/Armaan75" target="_blank">
+            <img src="images/github-logo.png" alt="GitHub" class="social-icon">
+        </a>
+        <a href="https://linkedin.com/in/armaan-rahnama" target="_blank">
+            <img src="images/linkedin-logo.png" alt="LinkedIn" class="social-icon">
+        </a>
+    </div>
+</section>
+
+    <button id="scroll-btn" class="scroll-down">
+        <span></span> <!-- Modern triangle arrow -->
+    </button>
+    
+</body>
+</html>

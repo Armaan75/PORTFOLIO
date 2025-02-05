@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo.png" type="image/x-icon" />
+    <script defer src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Armaan Rahnama | Aspiring Developer</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo-container">
+            <img src="Logo.png" id="logo">
+        </div>
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <h1>Armaan Rahnama</h1>
+        <h2>An Aspiring Developer</h2>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <h3>📍London, United Kingdom</h3>
+        <p>
+            Hello I'm Armaan, an aspiring software engineer with a unique blend of technical and business expertise. I hold an MSc in Computing and a BSc in Business Management and Marketing from the University of Roehampton. My journey into software development is fueled by a passion for problem-solving and creating intuitive, user-centered solutions.
+        </p>
+        
+        <div>
+            With my background in business management, I bring a strategic mindset to every project, understanding the importance of both the technical and business aspects of development. Fluent in English and Farsi, I can communicate and collaborate effectively in diverse environments.
+        </div>
+        
+        <div>
+            I'm driven by a desire to create impactful solutions. Explore some of my projects <a href ="#projects">here</a>. I'm looking to work as a software engineer and contribute to innovative projects.
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="project-rps">
+            <h3>Rock, Paper, Scissor Game</h3>
+            <!-- <img src="images/RPS game.png" alt="RPS image" /> -->
+            <p>A simple yet engaging Rock-Paper-Scissors game built with HTML, CSS, and JavaScript. Players interact by clicking buttons to choose their move, while the computer makes a random selection. The game determines the winner and displays the results with visual feedback and keeps track of the score.</p>
+        </div>
+        <div class="project-db">
+            <h3>Pawfect Pet Supplies Database</h3>
+            <!-- <img src="images/petshop.png" alt="Pet Shop image" /> -->
+            <p>This project outlines the SQL schema for the 'PawfectPetSupplies' database, designed to manage customer information, product inventory, sales, and orders for a pet store. The README.md file provides detailed explanations of the database structure, including table definitions, relationships, and example queries.</p>
+        </div>
+        <div class="project-weather">
+            <h3>Weather App</h3>
+            <!-- <img src="images/weather.png" alt="Weather image" /> -->
+            <p>A user-friendly weather app, developed in Python, empowers you to explore weather conditions across the globe. Simply enter a city name, and the app retrieves and displays the current temperature, weather conditions, wind speed, and humidity.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:armaanrahnama@gmail.com">armaanrahnama@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></p>
+
+        <form id="contact-form" class="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="from_name" required placeholder="Your Name">
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="from_email" required placeholder="Your Email">
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required placeholder="Subject">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+        
+            <button type="submit" class="send-btn">Send Message</button>
+        </form>
+        
+    </section>
+
+    <button id="scroll-btn" class="scroll-down">
+        <span></span> <!-- Modern triangle arrow -->
+    </button>
+    
+</body>
+</html>
